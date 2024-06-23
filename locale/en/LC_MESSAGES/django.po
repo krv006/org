@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-23 21:48+0500\n"
+"POT-Creation-Date: 2024-06-23 21:55+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -329,14 +329,56 @@ msgstr "Requirements for the format of articles"
 msgid "Формат."
 msgstr "Format."
 
-#: template/send.html:123
+#: template/send.html:111
+msgid ""
+"Все материалы представляются в редакцию в электронном виде (в формате MS "
+"Word, версия 2003 или выше)."
+msgstr ""
+"All materials are submitted to the editor in electronic form (in MS format"
+"Word version 2003 or higher)."
+
+#: template/send.html:113
+msgid "Шрифт, форматирование, нумерация страниц."
+msgstr "Font, formatting, page numbering."
+
+#: template/send.html:114
+msgid ""
+"            Шрифт – Times New Roman, кегль набора – 12 пунктов, полуторный "
+"интервал, форматирование по ширине. Нумерация страниц – вверху по центру, "
+"поля: левое – 2,5 см, верхнее, нижнее и правое – по 1,5 см."
+msgstr ""
+"Font – Times New Roman, type size – 12 points, one and a half"
+"spacing, width formatting. Page numbering - top center, "
+"margins: left – 2.5 cm, top, bottom and right – 1.5 cm each."
+
+#: template/send.html:115
 msgid "Языки."
 msgstr "Languages."
 
-#: template/send.html:125
+#: template/send.html:115
+msgid ""
+"Статьи представляются в редакцию на английском, узбекском и/или русском "
+"языках."
+msgstr ""
+"Articles are submitted to the editor in English, Uzbek and/or Russian"
+"languages."
+
+#: template/send.html:117
 msgid "Рисунки"
 msgstr "Drawings"
 
-#: template/send.html:141
+#: template/send.html:122
+msgid "Таблицы"
+msgstr "Tables"
+
+#: template/send.html:126
+msgid "Articles"
+msgstr "Articles"
+
+#: template/send.html:127
+msgid "Section default policy"
+msgstr "Section default policy"
+
+#: template/send.html:129
 msgid "Заявление о конфиденциальности"
 msgstr "Privacy Statement"
