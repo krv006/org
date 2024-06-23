@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-23 21:55+0500\n"
+"POT-Creation-Date: 2024-06-23 22:39+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -274,7 +274,7 @@ msgstr "- Kalit so'zlar;"
 
 #: template/send.html:45
 msgid "- Литература (References);"
-msgstr "Adabiyot"
+msgstr "- Adabiyot"
 
 #: template/send.html:48
 msgid "Название статьи"
@@ -285,107 +285,188 @@ msgid ""
 "Название статьи приводится английском языках. Оно должно быть информативным "
 "и раскрывать содержание статьи."
 msgstr ""
+"Maqolaning sarlavhasi ingliz tilida berilgan. U ma'lumotli bo'lishi kerak"
+"va maqola mazmunini oshkor eting."
 
 #: template/send.html:52
 msgid "Сведения об авторах"
 msgstr "- Mualliflar haqida batafsil ma'lumot."
 
-#: template/send.html:61
+#: template/send.html:54
+msgid "d4"
+msgstr ""
+"Maqolaning sarlavha sahifasida e'lon qilingan mualliflar haqidagi "
+"ma'lumotlar quyidagi elementlarni o'z ichiga oladi: - mualliflarning "
+"familiyasi, ismi;            - tashkilotlarning to'liq nomlari - "
+"mualliflarning ish joylari, har bir tashkilotning to'liq pochta manzili (shu "
+"jumladan pochta            indeks). Bir nechta aloqalarga ruxsat beriladi; - "
+"mualliflarning elektron pochta manzillari."
+
+#: template/send.html:56
 msgid "Аннотация"
 msgstr "- Izoh;"
 
-#: template/send.html:63
+#: template/send.html:58
 msgid ""
 "Аннотация к статье представляется на русском и английском языках. Объем – "
 "150–250 слов. Аннотация должна отражать основное содержание статьи и быть "
 "структурированной."
 msgstr ""
+"Maqola uchun tezis rus va ingliz tillarida taqdim etilgan. Jildi - "
+"150–250 so'z. Annotatsiya maqolaning asosiy mazmunini aks ettirishi va  bo'lishi kerak."
+"tuzilgan."
 
-#: template/send.html:66
+
+#: template/send.html:61
 msgid "Ключевые слова"
 msgstr "- Kalit so'zlar;"
 
-#: template/send.html:73
+#: template/send.html:63
+msgid "d5"
+msgstr ""
+"Kalit so'zlar ingliz tilida berilgan. Tavsiya etilgan kalit so'zlar "
+"soni(iboralar) – 6 dan 10 gacha. Tayanch so‘z yoki iboralar bir-biridan "
+"nuqta-vergul bilan ajratiladi."
+
+#: template/send.html:65
 msgid "Введение"
 msgstr "- Kirish:"
 
-#: template/send.html:75
+#: template/send.html:67
 msgid ""
 "Во Введении даются ответы на вопросы почему и зачем было проведено "
 "исследование, какова исследовательская гипотеза."
 msgstr ""
+"Kirish nima uchun va nima uchun amalga oshirilganligi haqidagi savollarga javob beradi"
+"Tadqiqot, tadqiqot gipotezasi nima."
 
-#: template/send.html:78
+#: template/send.html:70
 msgid "Основная часть"
-msgstr ""
+msgstr "Asosiy qism"
 
-#: template/send.html:84
+#: template/send.html:72
+msgid "d7"
+msgstr ""
+"Kirishga qo'shimcha ravishda taqdim etadigan IMRAD tuzilmasidan foydalanish "
+"tavsiya etiladi(Kirish), quyidagi bo'limlar: 'Usullar, 'Natijalar va "
+"'Muhokama'."
+
+#: template/send.html:74
 msgid "Заключение"
 msgstr "- Xulosa"
 
-#: template/send.html:94
+#: template/send.html:76
+msgid "d6"
+msgstr ""
+"Xulosa tadqiqotning asosiy natijalarining takroriy umumlashtirilgan "
+"ro'yxatini o'z ichiga oladi (            belgilangan maqsadlar, farazlar va "
+"tadqiqot savollari), shuningdek, ularning fan uchun ahamiyatini baholash. "
+"Shuningdek            Ushbu sohada keyingi tadqiqotlar uchun yo'nalishlarni "
+"ko'rsatish maqsadga muvofiqdir. Hajmi bo'yicha, Xulosa, qoida tariqasida, "
+"bunday emas            maqolaning umumiy matnining 10% dan oshadi."
+
+#: template/send.html:78
 msgid "Литература"
 msgstr "- Adabiyot"
 
-#: template/send.html:108
+#: template/send.html:80
+msgid "d3"
+msgstr ""
+"Xorijiy adabiyotlar asl tilda qisqartmalarsiz taqdim etiladi. Adabiyotlar "
+"ro'yxati            Garvardda qayta ishlangan            uslub. Ruscha/"
+"o‘zbekcha nomlarni transliteratsiya qilish uchun mavjudlaridan foydalanish "
+"tavsiya etiladi            onlayn xizmatlar. Bibliografiya kamida 15 ta "
+"manbadan iborat bo'lishi tavsiya etiladi. Ro'yxat elementlari "
+"adabiyot            maqola matnida zikr qilish (iqtibos) tartibida "
+"raqamlangan. Ro'yxatga kiritilgan manbalarning har biri            "
+"adabiyotlar, maqola matnida kamida bir marta iqtibos keltirilishi kerak. "
+"Matnda manbalarga iqtibos keltirish maqolalar            foydalanilgan "
+"adabiyotlar roʻyxatidagi raqamlari boʻyicha, kvadrat qavslar ichida yoziladi "
+"(masalan, [2], [4; 5], [7–10], [3; 5; 7–10])."
+
+#: template/send.html:82
 msgid "Требования к оформлению статей"
 msgstr "Maqolalar formatiga qo'yiladigan talablar"
 
-#: template/send.html:111
+#: template/send.html:85
 msgid "Формат."
 msgstr "Format."
 
-#: template/send.html:111
+#: template/send.html:85
 msgid ""
 "Все материалы представляются в редакцию в электронном виде (в формате MS "
 "Word, версия 2003 или выше)."
 msgstr ""
 
-#: template/send.html:113
+#: template/send.html:87
 msgid "Шрифт, форматирование, нумерация страниц."
 msgstr "Shrift, formatlash, sahifa raqamlash."
 
-#: template/send.html:114
+#: template/send.html:88
 msgid ""
 "            Шрифт – Times New Roman, кегль набора – 12 пунктов, полуторный "
 "интервал, форматирование по ширине. Нумерация страниц – вверху по центру, "
 "поля: левое – 2,5 см, верхнее, нижнее и правое – по 1,5 см."
 msgstr ""
-"Shrift - Times New Roman, shrift hajmi - 12 nuqta, bir yarim"
-"oraliq, kenglik formatlash. Sahifani raqamlash - yuqori markaz, "
-"chekkalar: chap - 2,5 sm, yuqori, pastki va o'ng - har biri 1,5 sm."
+"Shrift - Times New Roman, shrift hajmi - 12 nuqta, bir yarimoraliq, kenglik "
+"formatlash. Sahifani raqamlash - yuqori markaz, chekkalar: chap - 2,5 sm, "
+"yuqori, pastki va o'ng - har biri 1,5 sm."
 
-#: template/send.html:115
+#: template/send.html:89
 msgid "Языки."
 msgstr "Tillar."
 
-#: template/send.html:115
+#: template/send.html:89
 msgid ""
 "Статьи представляются в редакцию на английском, узбекском и/или русском "
 "языках."
 msgstr ""
-"Maqolalar tahririyatga ingliz, o‘zbek va/yoki rus tillarida taqdim etiladi"
-"tillar."
+"Maqolalar tahririyatga ingliz, o‘zbek va/yoki rus tillarida taqdim "
+"etiladitillar."
 
-#: template/send.html:117
+#: template/send.html:91
 msgid "Рисунки"
-msgstr "Chizmalar"
+msgstr "Chizmalar."
 
-#: template/send.html:122
+#: template/send.html:91
+msgid "d2"
+msgstr ""
+"MS Word yoki MS Excel yordamida formatlangan. Jadvallar doimiy ravishda "
+"raqamlanadi.Matndagi jadvallarga havolalar talab qilinadi va jadval "
+"pozitsiyasidan oldin bo'lishi kerak."
+
+#: template/send.html:93
 msgid "Таблицы"
 msgstr "Jadvallar"
 
-#: template/send.html:126
+#: template/send.html:93
+msgid "d"
+msgstr ""
+"MS Word yoki MS Excel yordamida formatlangan. Jadvallar doimiy ravishda "
+"raqamlanadi.Matndagi jadvallarga havolalar talab qilinadi va jadval "
+"pozitsiyasidan oldin bo'lishi kerak."
+
+#: template/send.html:96
 msgid "Articles"
 msgstr "Maqolalar"
 
-#: template/send.html:127
+#: template/send.html:97
 msgid "Section default policy"
 msgstr "Bo'lim standart siyosati"
 
-#: template/send.html:129
+#: template/send.html:99
 msgid "Заявление о конфиденциальности"
 msgstr "Maxfiylik bayonoti"
+
+#: template/send.html:100
+msgid "d1"
+msgstr ""
+"(grafiklar, diagrammalar va boshqalar) MS Word yoki MS yordamida "
+"loyihalashtirilishi mumkin   Excel. Siz wmf/emf yoki cdr v.10 formatidagi "
+"grafik vektor faylidan foydalanishingiz mumkin. Fotosurat materiallari "
+"formatda taqdim etiladiTIF yoki JPEG, tasvir o'lchamlari kamida 300 dpi. "
+"Chizmalarni raqamlash uzluksiz. ga havolalarMatndagi raqamlar talab qilinadi "
+"va rasmning pozitsiyasidan oldin bo'lishi kerak."
 
 #~| msgid "rv"
 #~ msgid "rv7"

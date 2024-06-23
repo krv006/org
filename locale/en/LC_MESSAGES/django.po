@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-23 21:55+0500\n"
+"POT-Creation-Date: 2024-06-23 22:39+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -279,106 +279,183 @@ msgid ""
 "Название статьи приводится английском языках. Оно должно быть информативным "
 "и раскрывать содержание статьи."
 msgstr ""
+"Maqolaning sarlavhasi ingliz tilida berilgan. U ma'lumotli bo'lishi kerak"
+"va maqola mazmunini oshkor eting."
 
 #: template/send.html:52
 msgid "Сведения об авторах"
 msgstr "- Detailed information about the authors."
 
-#: template/send.html:61
+#: template/send.html:54
+msgid "d4"
+msgstr ""
+"Information about the authors published on the title page of the article "
+"includes the following elements: - Last name, First name of the "
+"authors;            - full names of organizations - places of work of "
+"authors, full postal address of each organization (including postalindex). "
+"Multiple affiliations are allowed; - authors' email addresses."
+
+#: template/send.html:56
 msgid "Аннотация"
 msgstr "- Annotation;"
 
-#: template/send.html:63
+#: template/send.html:58
 msgid ""
 "Аннотация к статье представляется на русском и английском языках. Объем – "
 "150–250 слов. Аннотация должна отражать основное содержание статьи и быть "
 "структурированной."
 msgstr ""
+"The abstract for the article is presented in Russian and English. Volume - "
+"150–250 words. The abstract should reflect the main content of the article and be "
+"structured."
 
-#: template/send.html:66
+#: template/send.html:61
 msgid "Ключевые слова"
 msgstr "- Keywords;"
 
-#: template/send.html:73
+#: template/send.html:63
+msgid "d5"
+msgstr ""
+"Key words are given in English. Recommended number of keywords(phrases) – "
+"from 6 to 10. Key words or phrases are separated from each other by "
+"semicolons."
+
+#: template/send.html:65
 msgid "Введение"
 msgstr "- Introduction"
 
-#: template/send.html:75
+#: template/send.html:67
 msgid ""
 "Во Введении даются ответы на вопросы почему и зачем было проведено "
 "исследование, какова исследовательская гипотеза."
 msgstr ""
+"The Introduction provides answers to the questions why and why it was carried out"
+"research, what is the research hypothesis."
 
-#: template/send.html:78
+#: template/send.html:70
 msgid "Основная часть"
 msgstr ""
 
-#: template/send.html:84
+#: template/send.html:72
+msgid "d7"
+msgstr ""
+"It is recommended to use the IMRAD structure, which provides, in addition to "
+"the Introduction            (Introduction), the following sections: "
+"“Methods”, “Results” and “Discussion”."
+
+#: template/send.html:74
 msgid "Заключение"
 msgstr "- Conclusion"
 
-#: template/send.html:94
+#: template/send.html:76
+msgid "d6"
+msgstr ""
+"The conclusion includes a repeated generalized listing of the main results "
+"of the study (in accordance with            stated goals, hypotheses and "
+"research questions), as well as an assessment of their significance for "
+"science. Also            It is desirable to indicate directions for further "
+"research in this area. In terms of volume, the Conclusion, as a rule, is "
+"not            exceeds 10% of the total text of the article."
+
+#: template/send.html:78
 msgid "Литература"
 msgstr "- Literature"
 
-#: template/send.html:108
+#: template/send.html:80
+msgid "d3"
+msgstr ""
+"Foreign literature is presented in the original language without "
+"abbreviations. Bibliography processed at Harvard            style. For "
+"transliteration of Russian/Uzbek names, it is recommended to use "
+"existing            online services. It is recommended that the bibliography "
+"contain at least 15 sources. List elements literatureare numbered in the "
+"order of their mention (citation) in the text of the article. Each of the "
+"sources included in the listliterature, must be cited in the text of the "
+"article at least once. Citing sources in the text articles            "
+"carried out by their numbers in the list of references, in square brackets "
+"(for example, [2], [4; 5], [7–10], [3; 5; 7–10])."
+
+#: template/send.html:82
 msgid "Требования к оформлению статей"
 msgstr "Requirements for the format of articles"
 
-#: template/send.html:111
+#: template/send.html:85
 msgid "Формат."
 msgstr "Format."
 
-#: template/send.html:111
+#: template/send.html:85
 msgid ""
 "Все материалы представляются в редакцию в электронном виде (в формате MS "
 "Word, версия 2003 или выше)."
 msgstr ""
-"All materials are submitted to the editor in electronic form (in MS format"
-"Word version 2003 or higher)."
+"All materials are submitted to the editor in electronic form (in MS "
+"formatWord version 2003 or higher)."
 
-#: template/send.html:113
+#: template/send.html:87
 msgid "Шрифт, форматирование, нумерация страниц."
 msgstr "Font, formatting, page numbering."
 
-#: template/send.html:114
+#: template/send.html:88
 msgid ""
 "            Шрифт – Times New Roman, кегль набора – 12 пунктов, полуторный "
 "интервал, форматирование по ширине. Нумерация страниц – вверху по центру, "
 "поля: левое – 2,5 см, верхнее, нижнее и правое – по 1,5 см."
 msgstr ""
-"Font – Times New Roman, type size – 12 points, one and a half"
-"spacing, width formatting. Page numbering - top center, "
-"margins: left – 2.5 cm, top, bottom and right – 1.5 cm each."
+"Font – Times New Roman, type size – 12 points, one and a halfspacing, width "
+"formatting. Page numbering - top center, margins: left – 2.5 cm, top, bottom "
+"and right – 1.5 cm each."
 
-#: template/send.html:115
+#: template/send.html:89
 msgid "Языки."
 msgstr "Languages."
 
-#: template/send.html:115
+#: template/send.html:89
 msgid ""
 "Статьи представляются в редакцию на английском, узбекском и/или русском "
 "языках."
 msgstr ""
-"Articles are submitted to the editor in English, Uzbek and/or Russian"
-"languages."
+"Articles are submitted to the editor in English, Uzbek and/or "
+"Russianlanguages."
 
-#: template/send.html:117
+#: template/send.html:91
 msgid "Рисунки"
 msgstr "Drawings"
 
-#: template/send.html:122
+#: template/send.html:91
+msgid "d2"
+msgstr ""
+"formatted using MS Word or MS Excel. The tables are numbered continuously."
+"References to tables in the text are required and must precede the table "
+"position."
+
+#: template/send.html:93
 msgid "Таблицы"
 msgstr "Tables"
 
-#: template/send.html:126
+#: template/send.html:93
+msgid "d"
+msgstr ""
+"formatted using MS Word or MS Excel. The tables are numbered continuously."
+"References to tables in the text are required and must precede the table "
+"position."
+
+#: template/send.html:96
 msgid "Articles"
 msgstr "Articles"
 
-#: template/send.html:127
+#: template/send.html:97
 msgid "Section default policy"
 msgstr "Section default policy"
 
-#: template/send.html:129
+#: template/send.html:99
 msgid "Заявление о конфиденциальности"
 msgstr "Privacy Statement"
+
+#: template/send.html:100
+msgid "d1"
+msgstr ""
+"(graphs, diagrams, etc.) can be designed using MS Word or MS  Excel. You can "
+"use a graphic vector file in wmf/emf or cdr v.10 format. Photographic "
+"materials are provided in the format TIF or JPEG, with an image resolution "
+"of at least 300 dpi. Numbering of drawings is continuous. Links to  Figures "
+"in the text are required and must precede the position of the figure."
