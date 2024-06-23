@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-04 16:51+0500\n"
+"POT-Creation-Date: 2024-06-23 21:48+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,143 +75,287 @@ msgstr ""
 "va ma'rifatli jamiyat yaratishga intilingbuyurtma bering yoki XXXX yoki XXXX "
 "orqali biz bilan bog'laning."
 
-#: template/about_us.html:40
+#: template/about_us.html:38
 msgid "Мировые языки с уровня A1 до C1"
 msgstr "A1 dan C1 darajasiga qadar jahon tillari"
 
-#: template/about_us.html:42
+#: template/about_us.html:40
 msgid "detail4"
 msgstr ""
 "Mutaxassislik bilan birlashtirilgandunyoni o'rganishA1 darajasidan C1 "
 "darajasiga qadar tillar."
 
-#: template/about_us.html:48
+#: template/about_us.html:45
 msgid "Повышение квалификации"
 msgstr "Malaka oshirish"
 
-#: template/about_us.html:50
+#: template/about_us.html:47
 msgid "detail5"
 msgstr "O'qituvchilar malakasini oshirishbarcha darajalarta'lim."
 
-#: template/about_us.html:56
+#: template/about_us.html:52
 msgid "Тренинги научных исследователей"
 msgstr "Ilmiy tadqiqotchilar uchun treninglar"
 
-#: template/about_us.html:58
+#: template/about_us.html:54
 msgid "detail6"
 msgstr "Qurilish bo'yicha treninglarakademik salohiyatilmiy xodimlar."
 
-#: template/base.html:52
+#: template/base.html:30
 msgid "Bosh sahifa"
 msgstr "Bosh sahifa"
 
-#: template/base.html:53
+#: template/base.html:31
 msgid "Biz haqimizda"
 msgstr "Biz haqimizda"
 
-#: template/base.html:54
+#: template/base.html:32
 msgid "Redaktsia"
 msgstr "Tahririyat"
 
-#: template/base.html:55
+#: template/base.html:33
 msgid "Maqolalar"
 msgstr "Maqolalar"
 
-#: template/base.html:56
+#: template/base.html:34
 msgid "Material yuborish"
 msgstr "Material yuborish"
 
-#: template/base.html:57
+#: template/base.html:35
 msgid "Bog'lanish"
 msgstr "Bog'lanish"
 
-#: template/base.html:66
+#: template/base.html:68
 msgid "Raled"
 msgstr "Raled"
 
-#: template/base.html:67 template/base.html:73
+#: template/base.html:69 template/base.html:75
 msgid "Location"
 msgstr "Manzilimiz"
 
-#: template/base.html:68 template/base.html:74
+#: template/base.html:70 template/base.html:76
 msgid "Social"
 msgstr "Ijtimoiy"
 
-#: template/base.html:69 template/base.html:75
+#: template/base.html:71 template/base.html:77
 msgid "Safdosh Street,10"
 msgstr "Safdosh Ko'chasi,10"
 
-#: template/base.html:72
+#: template/base.html:74
 msgid "Locations"
 msgstr "Manzilimiz"
 
-#: template/base.html:79
+#: template/base.html:81
 msgid "Social Medias"
 msgstr "Ijtimoiy tarqmoqlarimiz"
 
-#: template/book_detail.html:29
+#: template/book_detail.html:28
 msgid "Download PDF"
 msgstr "Yuklab olish PDF"
 
-#: template/index.html:20
+#: template/index.html:29
 msgid "View More"
 msgstr "Ko'proq ko'rish"
 
-#: template/index.html:28
+#: template/index.html:37
 msgid "Our Partners"
 msgstr "Bizning Hamkorlarimiz"
 
-#~ msgid "About us"
+#: template/send.html:11
+msgid "Контрольный список подготовки материала к отправке"
+msgstr "Materialni jo'natish uchun tayyorlash ro'yxati"
+
+#: template/send.html:12
+msgid "rv"
+msgstr ""
+"Yuborish jarayonining bir bosqichi sifatida mualliflar o'z materiallarining "
+"quyidagilarga muvofiqligini tekshirishlari kerak agar ushbu talablarga javob "
+"bermasa, materiallar mualliflarga qaytarilishi mumkin."
+
+#: template/send.html:15
+msgid "rv1"
+msgstr "Yuborilgan material Microsoft Word hujjat formatida bo'lishi kerak."
+
+#: template/send.html:16
+msgid "rv2"
+msgstr ""
+"Matn Times New Roman shriftida, 14-PIN, 1,5 qator oralig'ida yozilishi "
+"kerak. Maydonlar-har biri 2            santimetr bilan   matnning barcha "
+"tomonlari (o'ng, chap, yuqori va pastki). Minimal hajm kamida 5 sahifadan "
+"iborat bo'lishi kerak,miqdori            havolalar kamida 3 ta manba "
+"bo'lishi kerak."
+
+#: template/send.html:17
+msgid "rv3"
+msgstr ""
+"Ushbu bo'limda tadqiqotda foydalanilgan barcha havolalar [1], [2] yoki "
+"[3]tartibida ko'rsatilishi kerak: familiyasi muallif, kitob nomi, "
+"nashriyotning manzili va ismi, yil, sahifalar."
+
+#: template/send.html:21
+msgid "Руководство для авторов"
+msgstr "Mualliflar uchun qo'llanma"
+
+#: template/send.html:22
+msgid "rv4"
+msgstr ""
+"Maqola dolzarb va original bo'lishi kerak, unda vazifalar bayon etilishi, "
+"asosiy tavsiflari bo'lishi kerak natijalar tadqiqotlar va xulosalar "
+"chiqarildi."
+
+#: template/send.html:23
+msgid "rv5"
+msgstr ""
+"Mualliflardan nashr uchun to'lov faqat ko'rib chiqilgan taqdirda olinadi."
+
+#: template/send.html:24
+msgid "Структура"
+msgstr "Tuzilishi"
+
+#: template/send.html:26
+msgid "Статья имеет следующую структуру: "
+msgstr "Maqola quyidagi tuzilishga ega:"
+
+#: template/send.html:27
+msgid "- Название; "
+msgstr "- Ismi"
+
+#: template/send.html:28 template/send.html:42
+msgid "- Авторы и их аффилиации;"
+msgstr "- Mualliflar va ularning mansubligi;"
+
+#: template/send.html:29
+msgid "- Аннотация;"
+msgstr "- Izoh;"
+
+#: template/send.html:30
+msgid "- Ключевые слова;"
+msgstr "- Kalit so'zlar;"
+
+#: template/send.html:31
+msgid "- Введение;"
+msgstr "- Kirish:"
+
+#: template/send.html:32
+msgid "- Основная часть (содержательные разделы / параграфы);"
+msgstr "- Asosiy qism (tarkib bo'limlari/paragraflari);"
+
+#: template/send.html:33
+msgid "- Заключение;"
+msgstr "- Xulosa"
+
+#: template/send.html:34
+msgid "- Литература;"
+msgstr "- Adabiyot"
+
+#: template/send.html:35 template/send.html:46
+msgid "- Подробные сведения об авторах."
+msgstr "- Mualliflar haqida batafsil ma'lumot."
+
+#: template/send.html:38
+msgid ""
+"Если ваша статья на русском или узбекском языке, пожалуйста прикрепите "
+"следующие данные на английском, в отдельном файле:"
+msgstr ""
+"Maqolangiz rus yoki oʻzbek tillarida boʻlsa, ilova qiling quyidagi "
+"ma'lumotlar ingliz tilida, alohida faylda:"
+
+#: template/send.html:41
+msgid "- Название;"
+msgstr "Ismi"
+
+#: template/send.html:43
+msgid "- Аннотация (Abstract);"
+msgstr "- Izoh;"
+
+#: template/send.html:44
+msgid "- Ключевые слова (Key words);"
+msgstr "- Kalit so'zlar;"
+
+#: template/send.html:45
+msgid "- Литература (References);"
+msgstr "Adabiyot"
+
+#: template/send.html:48
+msgid "Название статьи"
+msgstr "Ismi"
+
+#: template/send.html:50
+msgid ""
+"Название статьи приводится английском языках. Оно должно быть информативным "
+"и раскрывать содержание статьи."
+msgstr ""
+
+#: template/send.html:52
+msgid "Сведения об авторах"
+msgstr "- Mualliflar haqida batafsil ma'lumot."
+
+#: template/send.html:61
+msgid "Аннотация"
+msgstr "- Izoh;"
+
+#: template/send.html:63
+msgid ""
+"Аннотация к статье представляется на русском и английском языках. Объем – "
+"150–250 слов. Аннотация должна отражать основное содержание статьи и быть "
+"структурированной."
+msgstr ""
+
+#: template/send.html:66
+msgid "Ключевые слова"
+msgstr "- Kalit so'zlar;"
+
+#: template/send.html:73
+msgid "Введение"
+msgstr "- Kirish:"
+
+#: template/send.html:75
+msgid ""
+"Во Введении даются ответы на вопросы почему и зачем было проведено "
+"исследование, какова исследовательская гипотеза."
+msgstr ""
+
+#: template/send.html:78
+msgid "Основная часть"
+msgstr ""
+
+#: template/send.html:84
+msgid "Заключение"
+msgstr "- Xulosa"
+
+#: template/send.html:94
+msgid "Литература"
+msgstr "- Adabiyot"
+
+#: template/send.html:108
+msgid "Требования к оформлению статей"
+msgstr "Maqolalar formatiga qo'yiladigan talablar"
+
+#: template/send.html:111
+msgid "Формат."
+msgstr "Format."
+
+#: template/send.html:123
+msgid "Языки."
+msgstr "Tillar."
+
+#: template/send.html:125
+msgid "Рисунки"
+msgstr "Chizmalar"
+
+#: template/send.html:141
+msgid "Заявление о конфиденциальности"
+msgstr "Maxfiylik bayonoti"
+
+#~| msgid "rv"
+#~ msgid "rv7"
 #~ msgstr ""
-#~ "Research in Adult Learning and Education” (RALE) jurnali hayot davomida "
-#~ "ta’lim bilan shug‘ullanuvchi, mehnat bozori talablarini hisobga olgan "
-#~ "holda kattalar uchun ta’lim va kasbga o’qitish sifatini ta’minlash bilan "
-#~ "shug‘ullanuvchi o‘zbekistonlik va jahon amaliyotchilari va "
-#~ "tadqiqotchilari uchun mo‘ljallangan nashrdir.Biz hayot davomida ta’limni "
-#~ "rag‘batlantirish va odamlarning doimiy o‘zgarib borayotgan jamiyatda "
-#~ "rivojlanish imkoniyatlarini kengaytirish tarafdorimiz. Biz kattalar "
-#~ "ta'limining ahamiyatini odamlarni nafaqat tadqiqot va malakaga asoslangan "
-#~ "muhim ko'nikmalar bilan qurollantiradigan, balki shaxsiy o'sish, ijtimoiy "
-#~ "inklyuziya va iqtisodiy rivojlanishga yordam beradigan o'zgartiruvchi "
-#~ "kuch sifatida tan olamiz.Jurnal kattalarning jamiyat va mehnatdagi "
-#~ "ishtirokini rag'batlantirishga qaratilgan formal va noformal ta'lim va "
-#~ "ta'limni yoritadi. Jurnalimizning har bir soni quyidagi va shunga "
-#~ "o‘xshash sohalarda keng ko‘lamli mavzularni o‘z ichiga oladi:o kasb-hunar "
-#~ "ta’limi pedagogikasi va psixologiyasi;o ijtimoiy sheriklikni "
-#~ "rivojlantirish;o pedagogik va boshqaruv kadrlarining malakasini oshirish "
-#~ "va qayta tayyorlash;o kattalar uchun ta'lim;o ish joyida o'qitish;o "
-#~ "kasbiy rivojlanish.RALED butun dunyo bo'ylab kattalar ta'limi va "
-#~ "ta'limining barcha jihatlarini o'rgatish va tadbiq etish yo'llarini "
-#~ "boshqaradigan tamoyillar va amaliyotlarni konstruktiv muhokama qilish "
-#~ "uchun muhit yaratishga intiladi. Shuningdek, u butun dunyo bo'ylab "
-#~ "amaliyotchilar va tadqiqotchilar o'rtasida ma'lumot va g'oyalar "
-#~ "almashinuvi uchun forumni taqdim etadi.Bizning taniqli tadqiqotchilar, "
-#~ "o'qituvchilar va amaliyotchilar jamoasi kattalar ta'limining ko'p qirrali "
-#~ "jihatlarini yoritishga ishtiyoqlidir. Izlanishlar, dalillarga asoslangan "
-#~ "tadqiqotlar va tahlillar orqali biz kattalar ta'limi sohasidagi ilm va "
-#~ "amaliyotni xabardor qilishga hissa qo'shishni maqsad qilganmiz, "
-#~ "shuningdek, kattalar ta'limining global tabiatini va o’ziga xos "
-#~ "masalalarini aks ettiruvchi turli istiqbollar va fanlararo tadqiqotlarni "
-#~ "taqdim etishni maqsad qilganmiz.Tadqiqotchi sifatida siz kattalar "
-#~ "ta'limini o'rganishga qaratilgan maqolalar, tadqiqot ishlari, amaliy "
-#~ "tadqiqotlar, intervyular va sharhlarni kutishingiz mumkin. Biz sizni "
-#~ "ushbu intellektual sayohatda bizga qo'shilishga taklif qilamiz, chunki "
-#~ "biz ilg'or tadqiqotlar bilan shug'ullanamiz va kattalar o'quvchilarining "
-#~ "hayotini boyitadigan va ushbu sohani rivojlantirishga hissa qo'shadigan "
-#~ "amaliy natijalarni o'rganamiz.Biz butun dunyo bo'ylab tadqiqotchilar, "
-#~ "o'qituvchilar, siyosatchilar va amaliyotchilarni jurnalimizga o'z "
-#~ "tajribalari va g'oyalarini qo'shishga undaymiz. Tadqiqotlaringiz, "
-#~ "innovatsion amaliyotlaringiz va tanqidiy mulohazalaringizni baham ko‘rish "
-#~ "orqali siz jamoaviy bilimga hissa qo‘shishingiz va kattalar ta’limini "
-#~ "yaxshilashga intilayotgan faol olimlar va amaliyotchilar hamjamiyatini "
-#~ "rivojlantirishingiz mumkin.Bilim va o'zgarish uchun biz bilan birga "
-#~ "bo'lganlarga rahmat. Keling, kattalar uchun ta'limning qiziqarli sohasini "
-#~ "birgalikda o'rganaylik va yanada inklyuziv, adolatli va ma'rifatli "
-#~ "jamiyat yaratishga harakat qilaylik.Buyurtmangizni yuboring XXXX yoki "
-#~ "XXXX orqali biz bilan bog'laning"
+#~ "Yuborish jarayonining bir bosqichi sifatida mualliflar o'z "
+#~ "materiallarining quyidagilarga muvofiqligini tekshirishlari kerak agar "
+#~ "ushbu talablarga javob bermasa, materiallar mualliflarga qaytarilishi "
+#~ "mumkin."
 
-#~ msgid "Jurnal va maqolalar"
-#~ msgstr "Jurnal va maqolalar"
-
-#~ msgid "Mahorat & Management"
-#~ msgstr "Mahorat & Management"
+#~ msgid "rv6"
+#~ msgstr ""
+#~ "Maqolaning nomi ingliz tilida berilgan. Bu ma'lumotli bo'lishi va "
+#~ "maqolaning mazmunini ochib berishi kerak."
