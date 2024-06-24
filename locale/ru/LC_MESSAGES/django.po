@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 16:58+0500\n"
+"POT-Creation-Date: 2024-06-24 17:03+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,8 +135,8 @@ msgid "Location"
 msgstr "Расположение"
 
 #: template/base.html:70
-msgid "Social"
-msgstr "Социальное"
+msgid "Tashkent, Uzbekistan"
+msgstr "Ташкент, Узбекистан"
 
 #: template/base.html:71
 msgid "Safdosh Street,10"
@@ -479,6 +479,9 @@ msgstr ""
 "использованы исключительно для целей,обозначенных этим журналом, и не будут "
 "использованы для каких-либо других целей или предоставлены другим лицам и "
 "организациям."
+
+#~ msgid "Social"
+#~ msgstr "Социальное"
 
 #~ msgid "Locations"
 #~ msgstr "Локации"

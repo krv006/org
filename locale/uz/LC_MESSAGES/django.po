@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 16:58+0500\n"
+"POT-Creation-Date: 2024-06-24 17:03+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,8 +134,8 @@ msgid "Location"
 msgstr "Manzilimiz"
 
 #: template/base.html:70
-msgid "Social"
-msgstr "Ijtimoiy"
+msgid "Tashkent, Uzbekistan"
+msgstr "Tashkent, Uzbekistan"
 
 #: template/base.html:71
 msgid "Safdosh Street,10"
@@ -478,6 +478,9 @@ msgstr ""
 "formatda taqdim etiladiTIF yoki JPEG, tasvir o'lchamlari kamida 300 dpi. "
 "Chizmalarni raqamlash uzluksiz. ga havolalarMatndagi raqamlar talab qilinadi "
 "va rasmning pozitsiyasidan oldin bo'lishi kerak."
+
+#~ msgid "Social"
+#~ msgstr "Ijtimoiy"
 
 #~ msgid "Locations"
 #~ msgstr "Manzilimiz"

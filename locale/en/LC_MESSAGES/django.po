@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 16:58+0500\n"
+"POT-Creation-Date: 2024-06-24 17:03+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,8 +130,8 @@ msgid "Location"
 msgstr "Location"
 
 #: template/base.html:70
-msgid "Social"
-msgstr "Social"
+msgid "Tashkent, Uzbekistan"
+msgstr "Tashkent, Uzbekistan"
 
 #: template/base.html:71
 msgid "Safdosh Street,10"
@@ -471,6 +471,9 @@ msgstr ""
 "materials are provided in the format TIF or JPEG, with an image resolution "
 "of at least 300 dpi. Numbering of drawings is continuous. Links to  Figures "
 "in the text are required and must precede the position of the figure."
+
+#~ msgid "Social"
+#~ msgstr "Social"
 
 #~ msgid "Locations"
 #~ msgstr "Locations"
