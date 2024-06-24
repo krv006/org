@@ -11,7 +11,8 @@
     <h2 style="text-align: center;">Редакция</h2>
     <div class="names">
         {% for redikt in redikts %}
-        <p><span style="text-decoration: underline;">{{ redikt.name }}</span> - {{ request|check_lang:redikt }}</p>
+        <p style="text-decoration: underline;color: black"><span style="text-decoration: underline;color: black">{{ redikt.name }}</span> - {{ request|check_lang:redikt }}</p>
+{#        <p style="text-decoration: underline;color: black"><span style="text-decoration: underline;color: black">{{ redikt.name }}</span> - {{redikt.work_place_uz }}</p>#}
         {% endfor %}
     </div>
 </div>

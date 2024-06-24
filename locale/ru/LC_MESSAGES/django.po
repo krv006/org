@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-23 22:39+0500\n"
+"POT-Creation-Date: 2024-06-24 16:58+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,21 +130,33 @@ msgstr "Связь"
 msgid "Raled"
 msgstr "Ралед"
 
-#: template/base.html:69 template/base.html:75
+#: template/base.html:69
 msgid "Location"
 msgstr "Расположение"
 
-#: template/base.html:70 template/base.html:76
+#: template/base.html:70
 msgid "Social"
 msgstr "Социальное"
 
-#: template/base.html:71 template/base.html:77
+#: template/base.html:71
 msgid "Safdosh Street,10"
 msgstr "Safdosh улица, 10"
 
 #: template/base.html:74
-msgid "Locations"
-msgstr "Локации"
+msgid "Opening Hours"
+msgstr "Режим работы"
+
+#: template/base.html:75
+msgid "Monday - Friday"
+msgstr "Понедельник - Пятница"
+
+#: template/base.html:76
+msgid "10:00 AM - 08:00 PM"
+msgstr "10:00 - 20:00"
+
+#: template/base.html:77
+msgid "Tel: +998 95 195-00-55"
+msgstr "Тел: +998 95 195-00-55"
 
 #: template/base.html:81
 msgid "Social Medias"
@@ -467,3 +479,6 @@ msgstr ""
 "использованы исключительно для целей,обозначенных этим журналом, и не будут "
 "использованы для каких-либо других целей или предоставлены другим лицам и "
 "организациям."
+
+#~ msgid "Locations"
+#~ msgstr "Локации"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-23 22:39+0500\n"
+"POT-Creation-Date: 2024-06-24 16:58+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,21 +125,33 @@ msgstr "Connection"
 msgid "Raled"
 msgstr "Raled"
 
-#: template/base.html:69 template/base.html:75
+#: template/base.html:69
 msgid "Location"
 msgstr "Location"
 
-#: template/base.html:70 template/base.html:76
+#: template/base.html:70
 msgid "Social"
 msgstr "Social"
 
-#: template/base.html:71 template/base.html:77
+#: template/base.html:71
 msgid "Safdosh Street,10"
 msgstr "Safdosh Street,10"
 
 #: template/base.html:74
-msgid "Locations"
-msgstr "Locations"
+msgid "Opening Hours"
+msgstr "Opening Hours"
+
+#: template/base.html:75
+msgid "Monday - Friday"
+msgstr "Monday - Friday"
+
+#: template/base.html:76
+msgid "10:00 AM - 08:00 PM"
+msgstr "10:00 AM - 08:00 PM"
+
+#: template/base.html:77
+msgid "Tel: +998 95 195-00-55"
+msgstr "Tel: +998 95 195-00-55"
 
 #: template/base.html:81
 msgid "Social Medias"
@@ -279,8 +291,8 @@ msgid ""
 "Название статьи приводится английском языках. Оно должно быть информативным "
 "и раскрывать содержание статьи."
 msgstr ""
-"Maqolaning sarlavhasi ingliz tilida berilgan. U ma'lumotli bo'lishi kerak"
-"va maqola mazmunini oshkor eting."
+"Maqolaning sarlavhasi ingliz tilida berilgan. U ma'lumotli bo'lishi kerakva "
+"maqola mazmunini oshkor eting."
 
 #: template/send.html:52
 msgid "Сведения об авторах"
@@ -306,8 +318,8 @@ msgid ""
 "структурированной."
 msgstr ""
 "The abstract for the article is presented in Russian and English. Volume - "
-"150–250 words. The abstract should reflect the main content of the article and be "
-"structured."
+"150–250 words. The abstract should reflect the main content of the article "
+"and be structured."
 
 #: template/send.html:61
 msgid "Ключевые слова"
@@ -329,12 +341,12 @@ msgid ""
 "Во Введении даются ответы на вопросы почему и зачем было проведено "
 "исследование, какова исследовательская гипотеза."
 msgstr ""
-"The Introduction provides answers to the questions why and why it was carried out"
-"research, what is the research hypothesis."
+"The Introduction provides answers to the questions why and why it was "
+"carried outresearch, what is the research hypothesis."
 
 #: template/send.html:70
 msgid "Основная часть"
-msgstr ""
+msgstr "Main part"
 
 #: template/send.html:72
 msgid "d7"
@@ -459,3 +471,6 @@ msgstr ""
 "materials are provided in the format TIF or JPEG, with an image resolution "
 "of at least 300 dpi. Numbering of drawings is continuous. Links to  Figures "
 "in the text are required and must precede the position of the figure."
+
+#~ msgid "Locations"
+#~ msgstr "Locations"
