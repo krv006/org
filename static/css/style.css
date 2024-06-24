@@ -62,11 +62,13 @@ header {
     align-items: center;
     padding: 20px 30px;
 }
-.nav-link{
+
+.nav-link {
     /*display: flex;*/
     /*align-items: center;*/
     /*gap: 0;*/
 }
+
 .main-nav a {
     color: white;
     text-decoration: none;
