@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 17:03+0500\n"
+"POT-Creation-Date: 2024-06-25 15:22+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,63 +102,63 @@ msgstr "Тренинги научных исследователей"
 msgid "detail6"
 msgstr "Тренинги по наращиваниюакадемического потенциаланаучных работников."
 
-#: template/base.html:30
+#: template/base.html:31
 msgid "Bosh sahifa"
 msgstr "Домашняя страница"
 
-#: template/base.html:31
+#: template/base.html:32
 msgid "Biz haqimizda"
 msgstr "O нас"
 
-#: template/base.html:32
+#: template/base.html:33
 msgid "Redaktsia"
 msgstr "Редакция"
 
-#: template/base.html:33
+#: template/base.html:34
 msgid "Maqolalar"
 msgstr "Статьи"
 
-#: template/base.html:34
+#: template/base.html:35
 msgid "Material yuborish"
 msgstr "Отправка Материалов"
 
-#: template/base.html:35
+#: template/base.html:36
 msgid "Bog'lanish"
 msgstr "Связь"
 
-#: template/base.html:68
+#: template/base.html:69
 msgid "Raled"
 msgstr "Ралед"
 
-#: template/base.html:69
+#: template/base.html:70
 msgid "Location"
 msgstr "Расположение"
 
-#: template/base.html:70
+#: template/base.html:71
 msgid "Tashkent, Uzbekistan"
 msgstr "Ташкент, Узбекистан"
 
-#: template/base.html:71
+#: template/base.html:72
 msgid "Safdosh Street,10"
 msgstr "Safdosh улица, 10"
 
-#: template/base.html:74
+#: template/base.html:75
 msgid "Opening Hours"
 msgstr "Режим работы"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Monday - Friday"
 msgstr "Понедельник - Пятница"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "10:00 AM - 08:00 PM"
 msgstr "10:00 - 20:00"
 
-#: template/base.html:77
+#: template/base.html:78
 msgid "Tel: +998 95 195-00-55"
 msgstr "Тел: +998 95 195-00-55"
 
-#: template/base.html:81
+#: template/base.html:82
 msgid "Social Medias"
 msgstr "Социальное"
 
@@ -173,6 +173,10 @@ msgstr "Посмотреть больше"
 #: template/index.html:37
 msgid "Our Partners"
 msgstr "Наши Партнёры"
+
+#: template/redikt.html:11
+msgid "Редакция"
+msgstr "Редакционный совет"
 
 #: template/send.html:11
 msgid "Контрольный список подготовки материала к отправке"
