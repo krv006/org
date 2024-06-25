@@ -183,6 +183,10 @@ header {
 .rasm {
     width: 75%;
     margin: 0 12%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+
 }
 
 .rasm img {

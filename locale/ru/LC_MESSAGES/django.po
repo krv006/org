@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-25 15:22+0500\n"
+"POT-Creation-Date: 2024-06-25 18:22+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,29 +76,29 @@ msgstr ""
 "взрослых истремитесь создать более инклюзивное, справедливое и просвещенное "
 "общество. Отправьтезакажите или свяжитесь с нами по телефону XXXX или XXXX."
 
-#: template/about_us.html:38
+#: template/about_us.html:41
 msgid "Мировые языки с уровня A1 до C1"
 msgstr "Мировые языки с уровня A1 до C1"
 
-#: template/about_us.html:40
+#: template/about_us.html:43
 msgid "detail4"
 msgstr ""
 "Интегрированное со специальностьюизучение мировыхязыков с уровня A1 до "
 "уровня C1."
 
-#: template/about_us.html:45
+#: template/about_us.html:49
 msgid "Повышение квалификации"
 msgstr "Повышение квалификации"
 
-#: template/about_us.html:47
+#: template/about_us.html:51
 msgid "detail5"
 msgstr "Повышение квалификации учителейвсех уровнейобразования."
 
-#: template/about_us.html:52
+#: template/about_us.html:58
 msgid "Тренинги научных исследователей"
 msgstr "Тренинги научных исследователей"
 
-#: template/about_us.html:54
+#: template/about_us.html:60
 msgid "detail6"
 msgstr "Тренинги по наращиваниюакадемического потенциаланаучных работников."
 
@@ -178,22 +178,26 @@ msgstr "Наши Партнёры"
 msgid "Редакция"
 msgstr "Редакционный совет"
 
-#: template/send.html:11
-msgid "Контрольный список подготовки материала к отправке"
-msgstr ""
+#: template/send.html:11 template/send.html:102
+msgid "Отправка Материалов"
+msgstr "Отправка Материалов: "
 
 #: template/send.html:12
+msgid "Контрольный список подготовки материала к отправке"
+msgstr "Контрольный список подготовки материала к отправке"
+
+#: template/send.html:13
 msgid "rv"
 msgstr ""
 "В качестве одного из этапов процесса отправки авторы должны проверить "
 "соответствие их материала всем следующимпунктам, материалы могут быть "
 "возвращены авторам, если они не соответствуют этим требованиям."
 
-#: template/send.html:15
+#: template/send.html:16
 msgid "rv1"
 msgstr "Отправляемый материал должно быть в формате документа Microsoft Word."
 
-#: template/send.html:16
+#: template/send.html:17
 msgid "rv2"
 msgstr ""
 "Текст должен быть написан шрифтом Times New Roman, кеглем 14, межстрочный "
@@ -201,74 +205,74 @@ msgstr ""
 "снизу) текста. Минимальный объем должен быть не менее 5 страниц,"
 "количествоссылок должно быть не менее 3 источников."
 
-#: template/send.html:17
+#: template/send.html:18
 msgid "rv3"
 msgstr ""
 "В этом разделе следует перечислить все использованные в исследовании ссылки "
 "в порядке [1], [2] или [3]: фамилия автора, название книги, адрес и имя "
 "издателя, год, страницы."
 
-#: template/send.html:21
+#: template/send.html:22
 msgid "Руководство для авторов"
 msgstr "Руководство для авторов"
 
-#: template/send.html:22
+#: template/send.html:23
 msgid "rv4"
 msgstr ""
 "Статья должна быть актуальной и оригинальной, в ней должна содержаться "
 "постановка задач, описаны основные результаты исследования и сделаны выводы."
 
-#: template/send.html:23
+#: template/send.html:24
 msgid "rv5"
 msgstr ""
 "Плата с авторов за публикацию взимается, только в случае прохождения "
 "рецензирования."
 
-#: template/send.html:24
+#: template/send.html:25
 msgid "Структура"
 msgstr "Структура"
 
-#: template/send.html:26
+#: template/send.html:27
 msgid "Статья имеет следующую структуру: "
 msgstr "Статья имеет следующую структуру:"
 
-#: template/send.html:27
+#: template/send.html:28
 msgid "- Название; "
 msgstr "- Название;"
 
-#: template/send.html:28 template/send.html:42
+#: template/send.html:29 template/send.html:43
 msgid "- Авторы и их аффилиации;"
 msgstr "- Авторы и их аффилиации;"
 
-#: template/send.html:29
+#: template/send.html:30
 msgid "- Аннотация;"
 msgstr "- Аннотация;"
 
-#: template/send.html:30
+#: template/send.html:31
 msgid "- Ключевые слова;"
 msgstr "- Ключевые слова;"
 
-#: template/send.html:31
+#: template/send.html:32
 msgid "- Введение;"
 msgstr "- Введение;"
 
-#: template/send.html:32
+#: template/send.html:33
 msgid "- Основная часть (содержательные разделы / параграфы);"
 msgstr "- Основная часть (содержательные разделы / параграфы);"
 
-#: template/send.html:33
+#: template/send.html:34
 msgid "- Заключение;"
 msgstr "- Заключение;"
 
-#: template/send.html:34
+#: template/send.html:35
 msgid "- Литература;"
 msgstr "- Литература;"
 
-#: template/send.html:35 template/send.html:46
+#: template/send.html:36 template/send.html:47
 msgid "- Подробные сведения об авторах."
 msgstr "- Подробные сведения об авторах."
 
-#: template/send.html:38
+#: template/send.html:39
 msgid ""
 "Если ваша статья на русском или узбекском языке, пожалуйста прикрепите "
 "следующие данные на английском, в отдельном файле:"
@@ -276,27 +280,27 @@ msgstr ""
 "Если ваша статья на русском или узбекском языке, пожалуйста прикрепите "
 "следующие данные на английском, в отдельном файле:"
 
-#: template/send.html:41
+#: template/send.html:42
 msgid "- Название;"
 msgstr "- Название;"
 
-#: template/send.html:43
+#: template/send.html:44
 msgid "- Аннотация (Abstract);"
 msgstr "- Аннотация;"
 
-#: template/send.html:44
+#: template/send.html:45
 msgid "- Ключевые слова (Key words);"
 msgstr "- Ключевые слова;"
 
-#: template/send.html:45
+#: template/send.html:46
 msgid "- Литература (References);"
 msgstr "- Литература;"
 
-#: template/send.html:48
+#: template/send.html:49
 msgid "Название статьи"
 msgstr "- Название;"
 
-#: template/send.html:50
+#: template/send.html:51
 msgid ""
 "Название статьи приводится английском языках. Оно должно быть информативным "
 "и раскрывать содержание статьи."
@@ -304,11 +308,11 @@ msgstr ""
 "Название статьи приводится английском языках. Оно должно быть информативным "
 "и раскрывать содержание статьи."
 
-#: template/send.html:52
+#: template/send.html:53
 msgid "Сведения об авторах"
 msgstr "- Подробные сведения об авторах."
 
-#: template/send.html:54
+#: template/send.html:55
 msgid "d4"
 msgstr ""
 "Сведения об авторах, публикуемые на титульном листе статьи, включают "
@@ -317,11 +321,11 @@ msgstr ""
 "(включая почтовый            индекс). Допускается наличие нескольких "
 "аффилиаций; - адреса электронной почты авторов."
 
-#: template/send.html:56
+#: template/send.html:57
 msgid "Аннотация"
 msgstr "- Аннотация;"
 
-#: template/send.html:58
+#: template/send.html:59
 msgid ""
 "Аннотация к статье представляется на русском и английском языках. Объем – "
 "150–250 слов. Аннотация должна отражать основное содержание статьи и быть "
@@ -331,22 +335,22 @@ msgstr ""
 "150–250 слов. Аннотация должна отражать основное содержание статьи и быть "
 "структурированной."
 
-#: template/send.html:61
+#: template/send.html:62
 msgid "Ключевые слова"
 msgstr "- Ключевые слова;"
 
-#: template/send.html:63
+#: template/send.html:64
 msgid "d5"
 msgstr ""
 "Ключевые слова приводятся на английском языке. Рекомендуемое количество "
 "ключевых слов            (словосочетаний) – от 6 до 10. Ключевые слова или "
 "словосочетания отделяются друг от друга точками с запятыми."
 
-#: template/send.html:65
+#: template/send.html:66
 msgid "Введение"
 msgstr "- Введение;"
 
-#: template/send.html:67
+#: template/send.html:68
 msgid ""
 "Во Введении даются ответы на вопросы почему и зачем было проведено "
 "исследование, какова исследовательская гипотеза."
@@ -354,22 +358,22 @@ msgstr ""
 "Во Введении даются ответы на вопросы почему и зачем было проведено "
 "исследование, какова исследовательская гипотеза."
 
-#: template/send.html:70
+#: template/send.html:71
 msgid "Основная часть"
 msgstr "Main part"
 
-#: template/send.html:72
+#: template/send.html:73
 msgid "d7"
 msgstr ""
 "Рекомендуется применять структуру IMRAD, предусматривающую, помимо "
 "Введения(Introduction), следующие разделы: «Методы» (Methods), "
 "«Результаты» (Results) и «Дискуссия» (Discussion)."
 
-#: template/send.html:74
+#: template/send.html:75
 msgid "Заключение"
 msgstr "- Заключение;"
 
-#: template/send.html:76
+#: template/send.html:77
 msgid "d6"
 msgstr ""
 "Заключение включает повторное обобщенное перечисление основных результатов "
@@ -379,11 +383,11 @@ msgstr ""
 "данной области. По объему Заключение, как правило, не            превышает "
 "10% от общего объема текста статьи."
 
-#: template/send.html:78
+#: template/send.html:79
 msgid "Литература"
 msgstr "- Литература;"
 
-#: template/send.html:80
+#: template/send.html:81
 msgid "d3"
 msgstr ""
 "Иностранная литература приводится на языке оригинала без сокращений. Список "
@@ -397,15 +401,15 @@ msgstr ""
 "тексте статьиосуществляется по их номерам в списке литературы, в квадратных "
 "скобках (например, [2], [4; 5], [7–10], [3; 5; 7–10])."
 
-#: template/send.html:82
+#: template/send.html:83
 msgid "Требования к оформлению статей"
 msgstr "Требования к оформлению статей"
 
-#: template/send.html:85
+#: template/send.html:86
 msgid "Формат."
 msgstr "Формат."
 
-#: template/send.html:85
+#: template/send.html:86
 msgid ""
 "Все материалы представляются в редакцию в электронном виде (в формате MS "
 "Word, версия 2003 или выше)."
@@ -413,11 +417,11 @@ msgstr ""
 "Все материалы представляются в редакцию в электронном виде (в формате MS "
 "Word, версия 2003 или выше)."
 
-#: template/send.html:87
+#: template/send.html:88
 msgid "Шрифт, форматирование, нумерация страниц."
 msgstr "Шрифт, форматирование, нумерация страниц."
 
-#: template/send.html:88
+#: template/send.html:89
 msgid ""
 "            Шрифт – Times New Roman, кегль набора – 12 пунктов, полуторный "
 "интервал, форматирование по ширине. Нумерация страниц – вверху по центру, "
@@ -427,11 +431,11 @@ msgstr ""
 "интервал, форматирование по ширине. Нумерация страниц – вверху по центру, "
 "поля: левое – 2,5 см, верхнее, нижнее и правое – по 1,5 см."
 
-#: template/send.html:89
+#: template/send.html:90
 msgid "Языки."
 msgstr "Языки."
 
-#: template/send.html:89
+#: template/send.html:90
 msgid ""
 "Статьи представляются в редакцию на английском, узбекском и/или русском "
 "языках."
@@ -439,11 +443,11 @@ msgstr ""
 "Статьи представляются в редакцию на английском, узбекском и/или русском "
 "языках."
 
-#: template/send.html:91
+#: template/send.html:92
 msgid "Рисунки"
 msgstr "Рисунки"
 
-#: template/send.html:91
+#: template/send.html:92
 msgid "d2"
 msgstr ""
 " (графики, диаграммы и т.п.) могут быть оформлены средствами MS Word или "
@@ -453,36 +457,45 @@ msgstr ""
 "Нумерация рисунков – сквозная. Ссылки нарисунки в тексте обязательны и "
 "должны предшествовать позиции размещения рисунка."
 
-#: template/send.html:93
+#: template/send.html:94
 msgid "Таблицы"
 msgstr "Таблицы"
 
-#: template/send.html:93
+#: template/send.html:94
 msgid "d"
 msgstr ""
 "оформляются средствами MS Word или MS Excel. Нумерация таблиц – сквозная."
 "Ссылки на таблицы в тексте обязательны и должны предшествовать позиции "
 "размещения таблицы."
 
-#: template/send.html:96
+#: template/send.html:97
 msgid "Articles"
 msgstr "Статьи"
 
-#: template/send.html:97
+#: template/send.html:98
 msgid "Section default policy"
 msgstr "Политика раздела по умолчанию"
 
-#: template/send.html:99
+#: template/send.html:100
 msgid "Заявление о конфиденциальности"
 msgstr "Заявление о конфиденциальности"
 
-#: template/send.html:100
+#: template/send.html:101
 msgid "d1"
 msgstr ""
 "Имена и адреса электронной почты, введенные на сайте этого журнала, будут "
 "использованы исключительно для целей,обозначенных этим журналом, и не будут "
 "использованы для каких-либо других целей или предоставлены другим лицам и "
 "организациям."
+
+#: template/send.html:103
+msgid "k1"
+msgstr ""
+"Рукописи и сопроводительные письма следует присылать по электронной почте в "
+"редакцию по адресу: academymahorat@gmail.com.Мы получаем рукописи, "
+"написанные ясно, кратко и грамматически правильно. Файл для подачи должен "
+"быть в формате документа Microsoft Word, содержащий полный текст, ссылки, "
+"таблицы и рисунки. Файл шаблона можно скачать здесь."
 
 #~ msgid "Social"
 #~ msgstr "Социальное"
