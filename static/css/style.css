@@ -270,13 +270,13 @@ header {
     background-image: url('../images/book-footer-2.png');
     background-size: cover;
     background-position: center;
-    filter: blur(8px); /* Adjust the blur radius as needed */
-    z-index: -1; /* Ensure the blurred background stays behind the footer content */
+    filter: blur(8px);
+    z-index: -1;
 }
 
 .rokkis-footer-content {
     position: relative;
-    z-index: 1; /* Ensure content is above the blurred background */
+    z-index: 1;
 }
 
 
