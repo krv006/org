@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load i18n %}
 {% block title %}Jurnallar{% endblock %}
 
 {% block content %}
@@ -256,7 +256,7 @@
         <img src="img/shape.png" class="square" alt=""/>
         <div class="form">
             <div class="contact-info">
-                <h3 class="title" style="color: black">Biz bilan bo'g'laning!</h3>
+                <h3 class="title" style="color: black">{% trans "Biz bilan bo'g'laning!" %}</h3>
                 <p class="text" style="color: black">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sed magnam repudiandae
                     facilis,
@@ -267,15 +267,15 @@
                     <div class="info">
                         <div class="information">
                             <i class="fas fa-map-marker-alt" style="color: black"></i> &nbsp &nbsp
-                            <p style="color: black">Address: {{ i.address }}</p>
+                            <p style="color: black">{% trans "Address: " %}{{ i.address }}</p>
                         </div>
                         <div class="information">
                             <i class="fas fa-envelope" style="color: black"></i> &nbsp &nbsp
-                            <p style="color: black">E-mail: {{ i.email }}</p>
+                            <p style="color: black">{% trans "E-mail:" %} {{ i.email }}</p>
                         </div>
                         <div class="information">
                             <i class="fas fa-phone" style="color: black"></i>&nbsp&nbsp
-                            <p style="color: black">Phone number: {{ i.phone_number }}</p>
+                            <p style="color: black">{% trans "Phone number: " %}{{ i.phone_number }}</p>
                         </div>
                     </div>
                 {% endfor %}
