@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-25 18:22+0500\n"
+"POT-Creation-Date: 2024-06-25 19:14+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,6 +125,10 @@ msgstr "Отправка Материалов"
 #: template/base.html:36
 msgid "Bog'lanish"
 msgstr "Связь"
+
+#: template/base.html:37
+msgid "Arxiv"
+msgstr "Архив"
 
 #: template/base.html:69
 msgid "Raled"

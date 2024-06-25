@@ -3,7 +3,27 @@
 {% block title %}Jurnallar{% endblock %}
 
 {% block content %}
+    <style>
+        .book-details {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
+        .book-details p {
+            color: black;
+            font-family: sans-serif;
+            font-size: 17px;
+            margin-right: 10px; /* Reduced margin */
+            margin-left: auto;
+        }
+
+        .book-details .img-box img {
+            width: 600px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
     {% load static %}
     {% load i18n %}
 
@@ -13,7 +33,7 @@
         <p style="color: black; font-family: sans-serif">
             {% trans "detail1" %}
         </p>
-        <div class="row" style="padding-top: 35px; padding-bottom: 35px">
+        <div class="row" style="padding-top: 35px; padding-bottom: 35px;">
             <div class="col-md-6">
                 <div class="book-details ">
                     <p style="color: black; font-family: sans-serif; font-size: 17px">
@@ -21,10 +41,9 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="book-details">
                 <div class="img-box">
-                    <img src="{% static "images/raled.jpg" %}" alt=""
-                         style="width: 600px; height: auto; border-radius: 10px">
+                    <img src="{% static 'images/raled.jpg' %}" alt="">
                 </div>
             </div>
         </div>
