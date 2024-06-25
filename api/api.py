@@ -1,9 +1,9 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 
 from .serializers import CategorySerializer, ProductSerializer, AboutSerializer
-from .serializers import ContactSerializer, WorkerSerializer, Social_mediaSerializer
+from .serializers import ContactSerializer, Social_mediaSerializer
 
-from .models import Category, Product, Contact, About, Worker, Social_media
+from .models import Category, Product, Contact, About, Social_media
 
 
 class CategoryListCreateAPIView(ListCreateAPIView):
@@ -65,16 +65,6 @@ class AboutListCreateAPIView(ListCreateAPIView):
 class AboutRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = About.objects.all()
     serializer_class = AboutSerializer
-
-
-class WorkerListCreateAPIView(ListCreateAPIView):
-    queryset = Worker.objects.all()
-    serializer_class = WorkerSerializer
-
-
-class WorkerRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
-    queryset = Worker.objects.all()
-    serializer_class = WorkerSerializer
 
 
 class Social_mediaListCreateAPIView(ListCreateAPIView):

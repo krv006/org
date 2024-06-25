@@ -50,14 +50,6 @@ class About(models.Model):
         return self.address
 
 
-class Worker(models.Model):
-    full_name = models.CharField(max_length=50)
-    work = models.CharField(max_length=55)
-    image = models.ImageField(upload_to='workers/image')
-
-    def __str__(self):
-        return self.full_name
-
 
 class Social_media(models.Model):
     icon = models.CharField()
