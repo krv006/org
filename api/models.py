@@ -78,6 +78,7 @@ class Redikt(models.Model):
     work_place_ru = models.TextField()
     work_place_en = models.TextField()
     discription = models.TextField(blank=True, null=True)
+    image = models.ImageField(upload_to='workers/')
 
     def __str__(self):
         return self.name

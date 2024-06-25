@@ -1,29 +1,49 @@
 {% extends 'base.html' %}
 
 {% block title %}Home Page{% endblock %}
-
-{% load i18n %} 
+{% load static %}
+{% load i18n %}
 {% load check_lang %}
 
 {% block content %}
-<div class="container main">
-    <br>
-    <h2 style="text-align: center;">Редакция</h2>
-    <div class="names">
-        {% for redikt in redikts %}
-        <p style="text-decoration: underline;color: black"><span style="text-decoration: underline;color: black">{{ redikt.name }}</span> - {{ request|check_lang:redikt }}</p>
-{#        <p style="text-decoration: underline;color: black"><span style="text-decoration: underline;color: black">{{ redikt.name }}</span> - {{redikt.work_place_uz }}</p>#}
-        {% endfor %}
-    </div>
-</div>
+    <div class="container main">
+        <div class="container">
+            <h2 style="text-align: center; color: black">{% trans "Редакция" %}</h2>
 
-<style>
-    .main {
-        
-    }
-    .names {
-        width: 75%;
-        padding: 0 5% 0 20%;
-    }
-</style>
+            <span
+                    style="
+          display: flex;
+          width: 50px;
+          height: 2px;
+          color: #f2184f;
+          background-color: #f2184f;
+          margin: 5px 0;
+        "
+            ></span>
+            <div class="row">
+                {% for redikt in redikts %}
+                    <div class="card">
+                        <div class="cardImg">
+                            <img style="width: 200px" src="{{ redikt.image.url }}"/>
+                        </div>
+                        <div class="cardBody">
+                            <p class="title">{{ redikt.name }}</p>
+                            <p class="about">
+                            <p style="text-decoration: underline;color: black"><span
+                                    style="text-decoration: underline;color: black">{{ redikt }}</span>
+                                - {{ request|check_lang:redikt }}</p>
+                            </p>
+                        </div>
+                    </div>
+                {% endfor %}
+
+
+            </div>
+        </div>
+        <br>
+        <div class="names">
+        </div>
+    </div>
+
+
 {% endblock %}
