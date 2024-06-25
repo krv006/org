@@ -1,11 +1,9 @@
-from rest_framework.generics import ListCreateAPIView,RetrieveUpdateDestroyAPIView
+from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 
 from .serializers import CategorySerializer, ProductSerializer, AboutSerializer
 from .serializers import ContactSerializer, WorkerSerializer, Social_mediaSerializer
 
 from .models import Category, Product, Contact, About, Worker, Social_media
-
-
 
 
 class CategoryListCreateAPIView(ListCreateAPIView):
@@ -22,10 +20,10 @@ class CategoryListCreateAPIView(ListCreateAPIView):
         return queryset
 
 
-
 class CategoryRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
+
 
 class ProductListCreateAPIView(ListCreateAPIView):
     serializer_class = ProductSerializer
@@ -41,7 +39,8 @@ class ProductListCreateAPIView(ListCreateAPIView):
         if category:
             queryset = queryset.filter(category=category)
 
-        return queryset 
+        return queryset
+
 
 class ProductRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Product.objects.all()
@@ -52,10 +51,10 @@ class ContactListCreateAPIView(ListCreateAPIView):
     queryset = Contact.objects.all()
     serializer_class = ContactSerializer
 
+
 class ContactRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Contact.objects.all()
     serializer_class = ContactSerializer
-
 
 
 class AboutListCreateAPIView(ListCreateAPIView):
@@ -68,10 +67,10 @@ class AboutRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     serializer_class = AboutSerializer
 
 
-
 class WorkerListCreateAPIView(ListCreateAPIView):
     queryset = Worker.objects.all()
     serializer_class = WorkerSerializer
+
 
 class WorkerRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Worker.objects.all()
@@ -82,10 +81,10 @@ class Social_mediaListCreateAPIView(ListCreateAPIView):
     queryset = Social_media.objects.all()
     serializer_class = Social_mediaSerializer
 
+
 class Social_mediaRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Social_media.objects.all()
     serializer_class = Social_mediaSerializer
-
 
 # class ReconcileListCreateAPIView(ListCreateAPIView):
 #     queryset = Reconcile.objects.all()
