@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-26 00:05+0500\n"
+"POT-Creation-Date: 2024-06-26 15:15+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -188,6 +188,26 @@ msgstr "View More"
 #: template/index.html:37
 msgid "Our Partners"
 msgstr "Our Partners"
+
+#: template/index.html:54
+msgid "MY GOV"
+msgstr "MY GOV"
+
+#: template/index.html:64
+msgid "Yoshlar ishlari agentligi"
+msgstr "Youth Affairs Agency"
+
+#: template/index.html:74
+msgid "Bilim va malakalarni baholash agentligi"
+msgstr "Knowledge and Skills Assessment Agency"
+
+#: template/index.html:84
+msgid "Oliy ta'lim vazirligi"
+msgstr "Ministry of Higher Education"
+
+#: template/index.html:94
+msgid "OAK"
+msgstr "OAK"
 
 #: template/redikt.html:11
 msgid "Редакция"
